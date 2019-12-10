@@ -1,4 +1,20 @@
 # depslib dependency file v1.0
-1575626923 source:d:\it\proiecte\clilindrul\main.cpp
+1576015320 source:d:\it\proiecte\clilindrul\main.cpp
 	<iostream>
+	"Cilindru.h"
+	"Cerc.h"
+
+1576014723 source:d:\it\proiecte\clilindrul\src\cerc.cpp
+	"Cerc.h"
+	"Cilindru.h"
+	<math.h>
+
+1576014723 d:\it\proiecte\clilindrul\include\cerc.h
+
+1576014799 d:\it\proiecte\clilindrul\include\cilindru.h
+	"Cerc.h"
+
+1576014799 source:d:\it\proiecte\clilindrul\src\cilindru.cpp
+	"Cilindru.h"
+	"Cerc.h"
 
