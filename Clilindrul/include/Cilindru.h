@@ -9,11 +9,11 @@ class Cilindru
         double _inaltime;
 
     public:
+        Cilindru();
         Cilindru(double , double);
         double Volum();
         double Arie();
-       // double Set_baza (double setBaza) { _baza = setBaza;}
-        //double Get_baza() {return _baza;}
+
         virtual ~Cilindru();
 
     protected:
