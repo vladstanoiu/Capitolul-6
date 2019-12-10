@@ -1,17 +1,17 @@
 #include "Cilindru.h"
 #include "Cerc.h"
 
-double Cilindru::Cilindru(double baza , double inaltime)
+
+Cilindru::Cilindru (double baza , double inaltime): _baza(baza)
 {
-_baza.Set_raza(baza);
 _inaltime = inaltime;
 }
 
-double Cilindru::Volum(){
+ double Cilindru::Volum(){
     return (_baza.Arie()*_inaltime);
 }
 
-double Cilindru::Arie()
+ double Cilindru::Arie()
 {
     return 2*_baza.Arie()+2*3.14*_baza.Get_raza()*_inaltime;
 }
