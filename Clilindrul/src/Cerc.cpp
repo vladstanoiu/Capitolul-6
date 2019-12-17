@@ -3,9 +3,9 @@
 #include <math.h>
 
 
-Cerc::Cerc(double raza)
+Cerc::Cerc(double raza) : _raza(raza)
 {
-_raza = raza;
+
 }
 
 double Cerc::Arie()
