@@ -2,9 +2,9 @@
 #include "Cerc.h"
 
 
-Cilindru::Cilindru (double baza , double inaltime): _baza(baza)
+Cilindru::Cilindru (double baza , double inaltime): _baza(baza) , _inaltime(inaltime)
 {
-_inaltime = inaltime;
+
 }
 
  double Cilindru::Volum(){
