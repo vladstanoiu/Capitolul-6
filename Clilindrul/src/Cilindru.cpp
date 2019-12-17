@@ -2,7 +2,7 @@
 #include "Cerc.h"
 
 
-Cilindru::Cilindru (double baza , double inaltime): _baza(baza) , _inaltime(inaltime)
+Cilindru::Cilindru (double raza , double inaltime): _baza(raza) , _inaltime(inaltime)
 {
 
 }
